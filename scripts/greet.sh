@@ -1,3 +1,7 @@
 #!/bin/bash
-name=$1
-echo "Hello $name from Concourse!"
+
+# Remove this line:
+# name=$1
+
+# Use the variable from your YAML params:
+echo "Hello $USER_NAME from Concourse!"
